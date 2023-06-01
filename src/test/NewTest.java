@@ -56,7 +56,7 @@ public class NewTest {
 		vibloPage.closeDriver();
 	}
 	
-	@Test (priority = 2)
+	@Test (priority = 3)
 	public void inputEmailBlank() throws Exception {
 		vibloPage = new VibloObject();
 		Thread.sleep(3000);
